@@ -1,0 +1,44 @@
+-- GEOMETRY DASH -- (2024)
+
+Mobile (Andriod):
+
+This is Geometry Dash version 2.2, which adds even more to Geometry Dash like update 2.1 did. Here are the features:
+
+1. Editor: There are many more triggers and features in the editor.
+  1-1. Show Hitboxes: This shows all of the hitboxes for the objects in the editor. However, the Big Beast object's hitbox doesn't show, most likely because the image itself is the hitbox.
+    1-1-1. Colors: The color list is: Retro blue for collidable objects, retro red for objects that make the player die, retro green for objects that can be activated, or aqua for objects the player can jump through then land on.
+    1-1-2. This setting can also be activated in the settings in the main menu (Show hitboxes in Practice), or when playing a lavel then clicking pause, then clicking on the settings button.
+  1-2. Modes: These modes customize how the player goes through the level.
+    1-2-1. Classic: The player travels through the level, like in 1.0 - 2.2. The player travels at a linear rate, it's speed depending on which speed portal the player touches.
+    1-2-2. Platformer: The p[layer can go any left/right direction they choose, unlike 2.1 <= (earlier than/equal to 2.1). The player moves at a speed depending on which speed portal the player touches.
+  1-3. Default settings for the level: These settings apply to version 1.8 - 2.2. When the user creates a level, the settings apply to that created level.
+    1-3-1. Speed: The speed is set to "Normal", traveling at 10.1 grid spaces per second.
+    1-3-2. Size: The size of the player is set to "Normal". The player is as big as one grid space.
+    1-3-3. Gsamemode: The gamemode is set to "Cube".
+    1-3-4. Mode: The mode is set to "Classic".
+    1-3-5. Dual Mode: Dual mode is turned off. This means there is only one cube being controlled by one player.
+    1-3-6. 2-player Mode: 2-player Mode is turned off.
+    1-3-7. Flip gravity: Flip gravity is turned off. This means the player is falling downwards, instead of falling upwards.
+    1-3-8. Mirror Mode: This setting is turned off. This means the screen isn't being flipped.
+    1-3-9. Reverse Gameplay: This setting is turned off. This means the user won't travel downwards and fall leftwards.
+    1-3-10. BG Color: The BG color's default hex color is #287DFF. The RGBA properties are R: 40, G: 125, B: 255, and Opacity: 1.00. The color in text is "Sky Blue". This setting was set this way since version 1.0.
+    1-3-11. G (Ground) Color: The G (Ground) color's default hex color is #0066FF. The RGBA properties are R: 0, G: 102, B: 255, and Opacity: 1.00. The color in text is "Slightly-Darker Sky Blue". This setting was set this way since version 1.0.
+    1-3-12. G2 (Secondary Ground) Color: The G2 (Secondary Ground) color is exactly the same as the G color. This setting was set this way since version 1.0.
+    1-3-13. MG (Middle Ground): The MG (Middle Ground) color is exactly the same as the BG color. This setting was set this way when version 2.2 came out.
+    1-3-14. MG2 (Secondary Middle Ground): The MG2 (Secondary Middle Ground) color is exactly the same as the BG color. This setting was set this way when version 2.2 came out.
+    1-3-15. 3DL: The 3DL color's default hex color is #FFFFFF. The RGBA properties are R: 255, G: 255, B: 255, Opacity: 1.00. This setting was set this way when version 1.6-1.8 came out.
+    1-3-16. OBJ: The OBJ color is exactly the same as the 3DL color. This setting was set this way since version 1.0.
+  1-4. Triggers: This triggers list only shows the released ones in 2.2.
+    1-4-1. SFX: This trigger plays any sound effect that is selected in the SFX Library. Here are the default properties:
+      1-4-1-1. Sound Effect: The default sound effect is None, meaning no sound plays when this trigger is activated.
+      1-4-1-2. Loop: The default setting is false, meaning the sound does not loop.
+      1-4-1-3. Speed: The default setting is set to 0, meaning the sound plays normally.
+      1-4-1-4. Pitch: The default setting is set to 0, meaning the pitch of the sound is not shifted.
+      1-4-1-5. FFT: The default setting is set to false. This setting is unknown to what it does, but whoever wrote this documentation will figure this out in the future.
+      1-4-1-6. Page 2: This is the page 2 directory for this trigger.
+        1-4-1-6-1. Start: The default setting is set to 0, meaning the sound's progress (in milliseconds) starts without skipping anything.
+        1-4-1-6-2. End: The default setting is set to 0, meaning the sound does not end when the sound's progress (in milliseconds) exceeds this value.
+        1-4-1-6-3. Fade in: The default setting is set to 0, meaning the sound does not fade in at the start (in milliseconds).
+        1-4-1-6-4. Fade out: The default setting is set to 0, meaning the sound does not fade out when the sound's progress (in milliseconds) exceeds this value,
+
+This doesn't provide ALL of the features in Geometry Dash, but there are still most that aren't being listed in this documentation.
