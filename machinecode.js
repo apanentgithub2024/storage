@@ -14,5 +14,5 @@ function fromMachineC(A) {
 	}
 	return A.replace($, function(B) {
 		return _[B]
-	}).replace(/3/g, "")
+	}).replace(/3/g, "").replace(/0/g, "a")
 }
