@@ -14,5 +14,5 @@ function fromMachineC(A) {
 	}
 	return A.replace($, function(B) {
 		return _[B]
-	}).replace(/0/g, "a")
+	}).replace(/0|3/g, _ => _ === "0" ? "a" : _ === "3" ? "" : undefined)
 }
